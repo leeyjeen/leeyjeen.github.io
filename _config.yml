@@ -1,1 +1,36 @@
-theme: jekyll-theme-merlot
+# Site settings
+title:          LEEYJEEN
+description:    "dev blog"
+url:            "https://leeyjeen.github.io"
+
+# Author
+author:
+  name:         YUJIN LEE
+  email:        leeyjeen@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-paginate
+  - jekyll-remote-theme
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+remote_theme: chesterhow/tale
