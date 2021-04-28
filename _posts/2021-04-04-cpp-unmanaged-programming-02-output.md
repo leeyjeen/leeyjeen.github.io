@@ -20,7 +20,7 @@ tags: C++
     ```
 
 - NEW (C++)
-    - 사용하고 일기가  더 쉽다.
+    - 사용하고 읽기가 더 쉽다.
 
     ```cpp
     std::cout << "Hello, " << "world" << 123 << std::endl; // string, int를 함께 사용할 수 있다.
@@ -39,7 +39,7 @@ int main() {
 
 ### 네임스페이스(namespace)
 
-- Java의 `pacakge`, C#의 `namespace`와 비슷한 개념
+- Java의 `package`, C#의 `namespace`와 비슷한 개념
 - 함수, 클래스, 기타 등등의 이름 충돌을 피하기 위함
 
     ```cpp
